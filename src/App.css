@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+/* Herosection CSS */
+.herosection{
+   height: 580px;
+}
+
+/* Aboutpage CSS */
+.about{
+      height: 580px;
+}
+
+/* Skill Section CSS */
+.skills{
+  height: 580px;
+  }
+
+/* Project Section CSS   */
+.projects{
+  height: 580px;
+}
+
+.contact{
+  height: 580px;
+}
+img{
+box-shadow: rgba(185, 185, 185, 0.24) 0px 3px 8px;
+
+}
+.menubar{
+  display: none;
+}
+/* Responsive Design */
+@media (max-width:992px) {
+  .navlinks{
+    display: none;
+  }
+  .menubar{
+    display:inline }
+}
